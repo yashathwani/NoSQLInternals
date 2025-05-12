@@ -95,3 +95,14 @@ so how to support the deletion we use the sentinal value
 
 ![img_8.png](img_8.png)
 we dont want to use the offset because the offset size would be same as the number of unique keys
+
+
+
+TreeMap--
+This is the sorted map implementation 
+This is where the value is sorted on the basis of the keys 
+this sorts the key either in the natural orderiging or the specified comparator (the time complexity of the put is the logN)
+The inner implementation is the Red Black tree which is the self balancing binary search tree
+
+
+
